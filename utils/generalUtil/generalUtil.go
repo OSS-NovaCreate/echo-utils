@@ -1,11 +1,12 @@
 package generalUtil
 
 import (
-	"echo-utils/utils/errorUtil/utilErrors"
 	"errors"
 	"runtime"
 	"strings"
 	"time"
+
+	"github.com/OSS-NovaCreate/echo-utils/utils/errorUtil/utilErrors"
 )
 
 // 呼び出し元関数名を取得する

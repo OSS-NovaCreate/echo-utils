@@ -1,9 +1,9 @@
 package database
 
 import (
-	"echo-utils/utils/errorUtil"
 	"os"
 
+	"github.com/OSS-NovaCreate/echo-utils/utils/errorUtil"
 	_ "github.com/go-sql-driver/mysql"
 	"github.com/jmoiron/sqlx"
 )

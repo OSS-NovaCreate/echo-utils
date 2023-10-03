@@ -1,11 +1,12 @@
 package errorUtil
 
 import (
-	"echo-utils/utils/generalUtil"
 	"errors"
 	"os"
 	"runtime"
 	"strconv"
+
+	"github.com/OSS-NovaCreate/echo-utils/utils/generalUtil"
 )
 
 func WriteErrorLog(log error) {
